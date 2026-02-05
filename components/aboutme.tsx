@@ -4,7 +4,7 @@ export default function AboutMe() {
       className="w-full  max-w-6xl mx-auto py-5 md:px-0 px-3 "
       id="aboutme"
     >
-      <div className="border-l-8 border-l-pink-600 pl-5 my-3">
+      <div className="border-l-8 border-l-blue-600 pl-5 my-3">
         <p className="text-2xl font-semibold">About Myself</p>
       </div>{" "}
       <p className="text-lg">

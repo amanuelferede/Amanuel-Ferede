@@ -4,7 +4,7 @@ export default function Certificates() {
   return (
     <div className="w-full max-w-7xl mx-auto py-5" id="certificates">
       <div className="text-center">
-        <p className="border-l-8 border-l-pink-600 pl-5 text-2xl font-semibold text-center my-1 inline-block">
+        <p className="border-l-8 border-l-blue-600 pl-5 text-2xl font-semibold text-center my-1 inline-block">
           Certificates
         </p>
       </div>
@@ -14,22 +14,22 @@ export default function Certificates() {
             <Link
               target="_blank"
               title="View Document"
-              className="p-3.5 bg-pink-600 rounded-full"
+              className="p-6 bg-blue-600 rounded-full"
               href={`https://drive.google.com/file/d/1dIh8GzqCrVIhRDBdL8UJg_AoWbjECaO6/view?usp=sharing`}
             >
               <Image
-                src={`/certificates/1.jpg`}
+                src={`/certificates/link.png`}
                 alt="xxx"
                 width={0}
                 height={0}
                 sizes="100vh"
-                className="w-12 h-12 object-cover"
+                className="w-10 h-10 object-cover"
               />
             </Link>
           </div>
           <div className="p-4 flex items-center justify-center">
             <div className="flex flex-col space-y-1 items-center">
-              <div className="p-6 bg-pink-50 rounded-full">
+              <div className="p-6 bg-blue-50 rounded-full">
                 <Image
                   src={`/certificates/1.jpg`}
                   alt="xxx"
@@ -73,22 +73,22 @@ export default function Certificates() {
             <Link
               target="_blank"
               title="View Document"
-              className="p-3.5 bg-pink-600 rounded-full"
+              className="p-6 bg-blue-600 rounded-full"
               href={`https://drive.google.com/file/d/1-drrQKZyWwPapXiK0zSy81mg4k42E2bG/view?usp=sharing`}
             >
               <Image
-                src={`/certificates/1.jpg`}
+                src={`/certificates/link.png`}
                 alt="xxx"
                 width={0}
                 height={0}
                 sizes="100vh"
-                className="w-12 h-12 object-cover"
+                className="w-10 h-10 object-cover"
               />
             </Link>
           </div>
           <div className="p-4 flex items-center justify-center">
             <div className="flex flex-col space-y-1 items-center">
-              <div className="p-6 bg-pink-50 rounded-full">
+              <div className="p-6 bg-blue-50 rounded-full">
                 <Image
                   src={`/certificates/1.jpg`}
                   alt="xxx"
@@ -132,22 +132,22 @@ export default function Certificates() {
             <Link
               target="_blank"
               title="View Document"
-              className="p-3.5 bg-pink-600 rounded-full"
+              className="p-6 bg-blue-600 rounded-full"
               href={`https://drive.google.com/file/d/1tnA9YlmapjNED_DaiJhgAX8-rARAScgq/view?usp=sharing`}
             >
               <Image
-                src={`/certificates/1.jpg`}
+                src={`/certificates/link.png`}
                 alt="xxx"
                 width={0}
                 height={0}
                 sizes="100vh"
-                className="w-12 h-12 object-cover"
+                className="w-10 h-10 object-cover"
               />
             </Link>
           </div>
           <div className="p-4 flex items-center justify-center">
             <div className="flex flex-col space-y-1 items-center">
-              <div className="p-6 bg-pink-50 rounded-full">
+              <div className="p-6 bg-blue-50 rounded-full">
                 <Image
                   src={`/certificates/1.jpg`}
                   alt="xxx"
@@ -190,22 +190,22 @@ export default function Certificates() {
             <Link
               target="_blank"
               title="View Document"
-              className="p-3.5 bg-pink-600 rounded-full"
+              className="p-6 bg-blue-600 rounded-full"
               href={`https://drive.google.com/file/d/1FdnMgmRlkXG715n7cYyGQ5ccQjeCv6Bx/view?usp=sharing`}
             >
               <Image
-                src={`/certificates/1.jpg`}
+                src={`/certificates/link.png`}
                 alt="xxx"
                 width={0}
                 height={0}
                 sizes="100vh"
-                className="w-12 h-12 object-cover"
+                className="w-10 h-10 object-cover"
               />
             </Link>
           </div>
           <div className="p-4 flex items-center justify-center">
             <div className="flex flex-col space-y-1 items-center">
-              <div className="p-6 bg-pink-50 rounded-full">
+              <div className="p-6 bg-blue-50 rounded-full">
                 <Image
                   src={`/certificates/1.jpg`}
                   alt="xxx"
@@ -246,11 +246,11 @@ export default function Certificates() {
             <Link
               target="_blank"
               title="View Document"
-              className="p-3.5 bg-pink-600 rounded-full"
+              className="p-6 bg-blue-600 rounded-full"
               href={`https://drive.google.com/file/d/1tDxhUv77TdUwPhR3-fTNkXeWlIGMkgeV/view?usp=sharing`}
             >
               <Image
-                src={`/certificates/1.jpg`}
+                src={`/certificates/link.png`}
                 alt="xxx"
                 width={0}
                 height={0}
@@ -261,7 +261,7 @@ export default function Certificates() {
           </div>
           <div className="p-4 flex items-center justify-center">
             <div className="flex flex-col space-y-1 items-center">
-              <div className="p-6 bg-pink-50 rounded-full">
+              <div className="p-6 bg-blue-50 rounded-full">
                 <Image
                   src={`/certificates/1.jpg`}
                   alt="xxx"

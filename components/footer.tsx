@@ -10,7 +10,7 @@ import { FaXTwitter } from "react-icons/fa6";
 import { FiInstagram } from "react-icons/fi";
 export default function Footer() {
   return (
-    <div className="w-full bg-black pt-10 pb-4 text-white">
+    <div className="w-full bg-blue-500 pt-10 pb-4 text-white">
       <div className="max-w-3xl mx-auto flex justify-center md:px-0 px-3">
         <div className="flex space-x-3">
           <Image

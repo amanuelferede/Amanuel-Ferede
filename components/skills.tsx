@@ -3,7 +3,7 @@ export default function Skills() {
     <div className="max-w-6xl px-3 mx-auto py-5" id="skills">
       <div className="grid grid-cols-12 w-full md:gap-20 my-10">
         <div className="md:col-span-6 col-span-12 ">
-          <div className="border-l-8 border-l-pink-600 pl-5">
+          <div className="border-l-8 border-l-blue-600 pl-5">
             <p className="text-2xl font-semibold">Frontend technologies</p>
           </div>
           <div className="grid md:grid-cols-4 grid-cols-3 py-5 gap-4">
@@ -48,7 +48,7 @@ export default function Skills() {
         </div>
 
         <div className="md:col-span-6 col-span-12 ">
-          <div className="border-l-8 border-l-pink-600 pl-5">
+          <div className="border-l-8 border-l-blue-600 pl-5">
             <p className="text-2xl font-semibold">Backend technologies</p>
           </div>
           <div className="grid md:grid-cols-4 grid-cols-3 py-5 gap-4">

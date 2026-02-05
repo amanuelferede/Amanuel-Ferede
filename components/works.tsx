@@ -41,10 +41,10 @@ export default function Works() {
                 className="w-full object-cover mb-3"
               />
               <div className="p-4 relative ">
-                <div className="absolute md:flex hidden items-center space-x-4 justify-center h-1 opacity-0 group-hover:opacity-100 group-hover:h-full transition-all duration-200 ease-in-out left-0 right-0 bottom-0 bg-linear-to-r from-pink-300 to-pink-100/90 p-4 text-white">
+                <div className="absolute md:flex hidden items-center space-x-4 justify-center h-1 opacity-0 group-hover:opacity-100 group-hover:h-full transition-all duration-200 ease-in-out left-0 right-0 bottom-0 bg-linear-to-r from-blue-500 to-blue-100/90 p-4 text-white">
                   <Link target="_blank" href={work.url} title="Live demo">
                     <Image
-                      src={`/works/1.jpg`}
+                      src={`/works/link2.png`}
                       alt="xxx"
                       width={0}
                       height={0}
@@ -54,7 +54,7 @@ export default function Works() {
                   </Link>
 
                   <Image
-                    src={`/works/1.jpg`}
+                    src={`/works/info.png`}
                     title="View detail"
                     onClick={() => {
                       setShouldShowWorkModal(true);
@@ -76,10 +76,10 @@ export default function Works() {
                 <Link
                   target="_blank"
                   href={work.url}
-                  className="bg-pink-600 md:hidden inline-flex py-1.5 px-3 rounded-lg items-center space-x-1.5 mt-2"
+                  className="bg-blue-400 md:hidden inline-flex py-1.5 px-3 rounded-lg items-center space-x-1.5 mt-2"
                 >
                   <Image
-                    src={`/works/1.jpg`}
+                    src={`/works/link.png`}
                     alt="xxx"
                     width={0}
                     height={0}

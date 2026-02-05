@@ -44,7 +44,7 @@ export default function NavBar() {
             setActiveNavElemenet("home");
           }}
           className={`text-xl font-bold cursor-pointer ${
-            scrollPosition < 70 ? "text-white" : "text-black"
+            scrollPosition < 70 ? "text-black" : "text-black"
           } `}
         >
           Amanuel Ferede
@@ -54,7 +54,7 @@ export default function NavBar() {
         <div className="group cursor-pointer">
           <p
             className={`rounded-md font-bold  ${
-              scrollPosition < 70 ? "text-white" : "text-black"
+              scrollPosition < 70 ? "text-black" : "text-black"
             }`}
             onClick={() => {
               ChangeScrollTo("aboutme");
@@ -64,16 +64,16 @@ export default function NavBar() {
             About Me
           </p>
           {activeNavElement !== "aboutme" && (
-            <p className="h-1 w-0 group-hover:w-full transition-all duration-200 ease-in-out bg-pink-400"></p>
+            <p className="h-1 w-0 group-hover:w-full transition-all duration-200 ease-in-out bg-blue-400"></p>
           )}
           {activeNavElement === "aboutme" && (
-            <p className="h-1 w-full group-hover:w-full transition-all duration-200 ease-in-out bg-pink-400"></p>
+            <p className="h-1 w-full group-hover:w-full transition-all duration-200 ease-in-out bg-blue-400"></p>
           )}
         </div>
         <div className="group cursor-pointer">
           <p
             className={`rounded-md font-bold  ${
-              scrollPosition < 70 ? "text-white" : "text-black"
+              scrollPosition < 70 ? "text-black" : "text-black"
             }`}
             onClick={() => {
               ChangeScrollTo("skills");
@@ -83,16 +83,16 @@ export default function NavBar() {
             Skills
           </p>
           {activeNavElement !== "skills" && (
-            <p className="h-1 w-0 group-hover:w-full transition-all duration-200 ease-in-out bg-pink-400"></p>
+            <p className="h-1 w-0 group-hover:w-full transition-all duration-200 ease-in-out bg-blue-400"></p>
           )}
           {activeNavElement === "skills" && (
-            <p className="h-1 w-full group-hover:w-full transition-all duration-200 ease-in-out bg-pink-400"></p>
+            <p className="h-1 w-full group-hover:w-full transition-all duration-200 ease-in-out bg-blue-400"></p>
           )}
         </div>
         <div className="group cursor-pointer">
           <p
             className={`rounded-md font-bold  ${
-              scrollPosition < 70 ? "text-white" : "text-black"
+              scrollPosition < 70 ? "text-black" : "text-black"
             }`}
             onClick={() => {
               ChangeScrollTo("works");
@@ -102,16 +102,16 @@ export default function NavBar() {
             Works
           </p>
           {activeNavElement !== "works" && (
-            <p className="h-1 w-0 group-hover:w-full transition-all duration-200 ease-in-out bg-pink-400"></p>
+            <p className="h-1 w-0 group-hover:w-full transition-all duration-200 ease-in-out bg-blue-400"></p>
           )}
           {activeNavElement === "works" && (
-            <p className="h-1 w-full group-hover:w-full transition-all duration-200 ease-in-out bg-pink-400"></p>
+            <p className="h-1 w-full group-hover:w-full transition-all duration-200 ease-in-out bg-blue-400"></p>
           )}{" "}
         </div>
         <div className="group cursor-pointer">
           <p
             className={`rounded-md font-bold  ${
-              scrollPosition < 70 ? "text-white" : "text-black"
+              scrollPosition < 70 ? "text-black" : "text-black"
             }`}
             onClick={() => {
               ChangeScrollTo("certs");
@@ -121,16 +121,16 @@ export default function NavBar() {
             Certificates
           </p>
           {activeNavElement !== "certs" && (
-            <p className="h-1 w-0 group-hover:w-full transition-all duration-200 ease-in-out bg-pink-400"></p>
+            <p className="h-1 w-0 group-hover:w-full transition-all duration-200 ease-in-out bg-blue-400"></p>
           )}
           {activeNavElement === "certs" && (
-            <p className="h-1 w-full group-hover:w-full transition-all duration-200 ease-in-out bg-pink-400"></p>
+            <p className="h-1 w-full group-hover:w-full transition-all duration-200 ease-in-out bg-blue-400"></p>
           )}{" "}
         </div>
         <div className="group cursor-pointer">
           <p
             className={`rounded-md font-bold  ${
-              scrollPosition < 70 ? "text-white" : "text-black"
+              scrollPosition < 70 ? "text-black" : "text-black"
             }`}
             onClick={() => {
               ChangeScrollTo("contact");
@@ -140,10 +140,10 @@ export default function NavBar() {
             Contact Me
           </p>
           {activeNavElement !== "contact" && (
-            <p className="h-1 w-0 group-hover:w-full transition-all duration-200 ease-in-out bg-pink-400"></p>
+            <p className="h-1 w-0 group-hover:w-full transition-all duration-200 ease-in-out bg-blue-400"></p>
           )}
           {activeNavElement === "contact" && (
-            <p className="h-1 w-full group-hover:w-full transition-all duration-200 ease-in-out bg-pink-400"></p>
+            <p className="h-1 w-full group-hover:w-full transition-all duration-200 ease-in-out bg-blue-400"></p>
           )}{" "}
         </div>
       </div>
@@ -153,7 +153,7 @@ export default function NavBar() {
             setShouldShowMobileMenu(!shouldShowMobileMenu);
           }}
           className={`cursor-pointer w-7 h-7  ${
-            scrollPosition < 70 ? "text-white" : "text-black"
+            scrollPosition < 70 ? "text-black" : "text-black"
           }`}
         />
       </div>

@@ -28,7 +28,7 @@ export default function ContactMe() {
               className="w-full p-4 focus:outline-none rounded-sm border border-gray-300 focus:border-2 focus:border-gray-300"
               placeholder="Enter your name"
             />
-            <button className="md:ml-0 ml-4 md:w-4/12 w-1/2 py-2 px-3 text-center rounded-lg bg-pink-600 text-white">
+            <button className="md:ml-0 ml-4 md:w-4/12 w-1/2 py-2 px-3 text-center rounded-lg bg-blue-600 text-white">
               Send Message
             </button>
           </div>
