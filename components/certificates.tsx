@@ -9,12 +9,12 @@ export default function Certificates() {
         </p>
       </div>
       <div className="grid md:grid-cols-3 gap-5">
-        <div className="w-full shadow-md relative group">
-          <div className="absolute md:flex hidden items-center justify-center h-1 opacity-0 group-hover:opacity-100 group-hover:h-full transition-all duration-200 ease-in-out left-0 right-0 bottom-0 bg-linear-to-r from-gray-300 to-gray-100/90">
+        <div className="w-full shadow-md relative group md:rounded-lg">
+          <div className="absolute md:flex hidden md:rounded-lg items-center justify-center h-1 opacity-0 group-hover:opacity-100 group-hover:h-full transition-all duration-200 ease-in-out left-0 right-0 bottom-0 bg-linear-to-r from-black/40 to-black/30">
             <Link
               target="_blank"
               title="View Document"
-              className="p-6 bg-blue-600 rounded-full"
+              className="p-6 bg-blue-400 rounded-full border-4 border-white"
               href={`https://drive.google.com/file/d/1dIh8GzqCrVIhRDBdL8UJg_AoWbjECaO6/view?usp=sharing`}
             >
               <Image
@@ -23,7 +23,7 @@ export default function Certificates() {
                 width={0}
                 height={0}
                 sizes="100vh"
-                className="w-10 h-10 object-cover"
+                className="w-6 h-6 object-cover"
               />
             </Link>
           </div>
@@ -31,12 +31,12 @@ export default function Certificates() {
             <div className="flex flex-col space-y-1 items-center">
               <div className="p-6 bg-blue-50 rounded-full">
                 <Image
-                  src={`/certificates/1.jpg`}
+                  src={`/certificates/programming.png`}
                   alt="xxx"
                   width={0}
                   height={0}
                   sizes="100vh"
-                  className="w-20 h-20 object-cover "
+                  className="w-14 h-14 object-cover "
                 />
               </div>
 
@@ -53,27 +53,27 @@ export default function Certificates() {
               <Link
                 target="_blank"
                 title="View Document"
-                className="w-30 p-2 rounded-lg mt-3 flex items-center justify-center border border-black md:hidden "
+                className="px-7 py-1.5 rounded-lg mt-3 flex items-center justify-center border border-black md:hidden "
                 href={`https://drive.google.com/file/d/1-drrQKZyWwPapXiK0zSy81mg4k42E2bG/view?usp=sharing`}
               >
                 <Image
-                  src={`/certificates/1.jpg`}
+                  src={`/certificates/link2.png`}
                   alt="xxx"
                   width={0}
                   height={0}
                   sizes="100vh"
-                  className="w-8 h-8 object-cover"
+                  className="w-6 h-6 object-cover"
                 />
               </Link>
             </div>
           </div>
         </div>
-        <div className="w-full shadow-md relative group">
-          <div className="absolute md:flex hidden items-center justify-center h-1 opacity-0 group-hover:opacity-100 group-hover:h-full transition-all duration-200 ease-in-out left-0 right-0 bottom-0 bg-linear-to-r from-gray-300 to-gray-100/90">
+        <div className="w-full shadow-md relative group md:rounded-lg">
+          <div className="absolute md:flex hidden md:rounded-lg items-center justify-center h-1 opacity-0 group-hover:opacity-100 group-hover:h-full transition-all duration-200 ease-in-out left-0 right-0 bottom-0 bg-linear-to-r from-black/40 to-black/30">
             <Link
               target="_blank"
               title="View Document"
-              className="p-6 bg-blue-600 rounded-full"
+              className="p-6 bg-blue-400 rounded-full border-4 border-white"
               href={`https://drive.google.com/file/d/1-drrQKZyWwPapXiK0zSy81mg4k42E2bG/view?usp=sharing`}
             >
               <Image
@@ -82,7 +82,7 @@ export default function Certificates() {
                 width={0}
                 height={0}
                 sizes="100vh"
-                className="w-10 h-10 object-cover"
+                className="w-6 h-6 object-cover"
               />
             </Link>
           </div>
@@ -90,12 +90,12 @@ export default function Certificates() {
             <div className="flex flex-col space-y-1 items-center">
               <div className="p-6 bg-blue-50 rounded-full">
                 <Image
-                  src={`/certificates/1.jpg`}
+                  src={`/certificates/app-development.png`}
                   alt="xxx"
                   width={0}
                   height={0}
                   sizes="100vh"
-                  className="w-20 h-20 object-cover "
+                  className="w-14 h-14 object-cover "
                 />
               </div>
 
@@ -111,28 +111,28 @@ export default function Certificates() {
               <Link
                 target="_blank"
                 title="View Document"
-                className="w-30 p-2 rounded-lg mt-3 flex items-center justify-center border border-black md:hidden "
+                className="px-7 py-1.5 rounded-lg mt-3 flex items-center justify-center border border-black md:hidden "
                 href={`https://drive.google.com/file/d/1-drrQKZyWwPapXiK0zSy81mg4k42E2bG/view?usp=sharing`}
               >
                 <Image
-                  src={`/certificates/1.jpg`}
+                  src={`/certificates/link2.png`}
                   alt="xxx"
                   width={0}
                   height={0}
                   sizes="100vh"
-                  className="w-8 h-8 object-cover"
+                  className="w-6 h-6 object-cover"
                 />
               </Link>
             </div>
           </div>
         </div>
 
-        <div className="w-full shadow-md relative group">
-          <div className="absolute md:flex hidden items-center justify-center h-1 opacity-0 group-hover:opacity-100 group-hover:h-full transition-all duration-200 ease-in-out left-0 right-0 bottom-0 bg-linear-to-r from-gray-300 to-gray-100/90">
+        <div className="w-full shadow-md relative group md:rounded-lg">
+          <div className="absolute md:flex hidden md:rounded-lg items-center justify-center h-1 opacity-0 group-hover:opacity-100 group-hover:h-full transition-all duration-200 ease-in-out left-0 right-0 bottom-0 bg-linear-to-r from-black/40 to-black/30">
             <Link
               target="_blank"
               title="View Document"
-              className="p-6 bg-blue-600 rounded-full"
+              className="p-6 bg-blue-400 rounded-full border-4 border-white"
               href={`https://drive.google.com/file/d/1tnA9YlmapjNED_DaiJhgAX8-rARAScgq/view?usp=sharing`}
             >
               <Image
@@ -141,7 +141,7 @@ export default function Certificates() {
                 width={0}
                 height={0}
                 sizes="100vh"
-                className="w-10 h-10 object-cover"
+                className="w-6 h-6 object-cover"
               />
             </Link>
           </div>
@@ -149,12 +149,12 @@ export default function Certificates() {
             <div className="flex flex-col space-y-1 items-center">
               <div className="p-6 bg-blue-50 rounded-full">
                 <Image
-                  src={`/certificates/1.jpg`}
+                  src={`/certificates/wave-chart.png`}
                   alt="xxx"
                   width={0}
                   height={0}
                   sizes="100vh"
-                  className="w-20 h-20 object-cover "
+                  className="w-14 h-14 object-cover "
                 />
               </div>
 
@@ -169,28 +169,28 @@ export default function Certificates() {
               <Link
                 target="_blank"
                 title="View Document"
-                className="w-30 p-2 rounded-lg mt-3 flex items-center justify-center border border-black md:hidden "
+                className="px-7 py-1.5 rounded-lg mt-3 flex items-center justify-center border border-black md:hidden "
                 href={`https://drive.google.com/file/d/1-drrQKZyWwPapXiK0zSy81mg4k42E2bG/view?usp=sharing`}
               >
                 <Image
-                  src={`/certificates/1.jpg`}
+                  src={`/certificates/link2.png`}
                   alt="xxx"
                   width={0}
                   height={0}
                   sizes="100vh"
-                  className="w-8 h-8 object-cover"
+                  className="w-6 h-6 object-cover"
                 />
               </Link>
             </div>
           </div>
         </div>
 
-        <div className="w-full shadow-md relative group">
-          <div className="absolute md:flex hidden items-center justify-center h-1 opacity-0 group-hover:opacity-100 group-hover:h-full transition-all duration-200 ease-in-out left-0 right-0 bottom-0 bg-linear-to-r from-gray-300 to-gray-100/90">
+        <div className="w-full shadow-md relative group md:rounded-lg">
+          <div className="absolute md:flex hidden md:rounded-lg items-center justify-center h-1 opacity-0 group-hover:opacity-100 group-hover:h-full transition-all duration-200 ease-in-out left-0 right-0 bottom-0 bg-linear-to-r from-black/40 to-black/30">
             <Link
               target="_blank"
               title="View Document"
-              className="p-6 bg-blue-600 rounded-full"
+              className="p-6 bg-blue-400 rounded-full border-4 border-white"
               href={`https://drive.google.com/file/d/1FdnMgmRlkXG715n7cYyGQ5ccQjeCv6Bx/view?usp=sharing`}
             >
               <Image
@@ -199,7 +199,7 @@ export default function Certificates() {
                 width={0}
                 height={0}
                 sizes="100vh"
-                className="w-10 h-10 object-cover"
+                className="w-6 h-6 object-cover"
               />
             </Link>
           </div>
@@ -207,12 +207,12 @@ export default function Certificates() {
             <div className="flex flex-col space-y-1 items-center">
               <div className="p-6 bg-blue-50 rounded-full">
                 <Image
-                  src={`/certificates/1.jpg`}
+                  src={`/certificates/diploma.png`}
                   alt="xxx"
                   width={0}
                   height={0}
                   sizes="100vh"
-                  className="w-20 h-20 object-cover "
+                  className="w-14 h-14 object-cover "
                 />
               </div>
 
@@ -226,27 +226,27 @@ export default function Certificates() {
               <Link
                 target="_blank"
                 title="View Document"
-                className="w-30 p-2 rounded-lg mt-3 flex items-center justify-center border border-black md:hidden "
+                className="px-7 py-1.5 rounded-lg mt-3 flex items-center justify-center border border-black md:hidden "
                 href={`https://drive.google.com/file/d/1-drrQKZyWwPapXiK0zSy81mg4k42E2bG/view?usp=sharing`}
               >
                 <Image
-                  src={`/certificates/1.jpg`}
+                  src={`/certificates/link2.png`}
                   alt="xxx"
                   width={0}
                   height={0}
                   sizes="100vh"
-                  className="w-8 h-8 object-cover"
+                  className="w-6 h-6 object-cover"
                 />
               </Link>
             </div>
           </div>
         </div>
-        <div className="w-full shadow-md relative group">
-          <div className="absolute md:flex hidden items-center justify-center h-1 opacity-0 group-hover:opacity-100 group-hover:h-full transition-all duration-200 ease-in-out left-0 right-0 bottom-0 bg-linear-to-r from-gray-300 to-gray-100/90">
+        <div className="w-full shadow-md relative group md:rounded-lg">
+          <div className="absolute md:flex hidden md:rounded-lg items-center justify-center h-1 opacity-0 group-hover:opacity-100 group-hover:h-full transition-all duration-200 ease-in-out left-0 right-0 bottom-0 bg-linear-to-r from-black/40 to-black/30">
             <Link
               target="_blank"
               title="View Document"
-              className="p-6 bg-blue-600 rounded-full"
+              className="p-6 bg-blue-400 rounded-full border-4 border-white"
               href={`https://drive.google.com/file/d/1tDxhUv77TdUwPhR3-fTNkXeWlIGMkgeV/view?usp=sharing`}
             >
               <Image
@@ -255,7 +255,7 @@ export default function Certificates() {
                 width={0}
                 height={0}
                 sizes="100vh"
-                className="w-12 h-12 object-cover"
+                className="w-6 h-6 object-cover"
               />
             </Link>
           </div>
@@ -263,12 +263,12 @@ export default function Certificates() {
             <div className="flex flex-col space-y-1 items-center">
               <div className="p-6 bg-blue-50 rounded-full">
                 <Image
-                  src={`/certificates/1.jpg`}
+                  src={`/certificates/a-score.png`}
                   alt="xxx"
                   width={0}
                   height={0}
                   sizes="100vh"
-                  className="w-20 h-20 object-cover "
+                  className="w-14 h-14 object-cover "
                 />
               </div>
 
@@ -282,16 +282,16 @@ export default function Certificates() {
               <Link
                 target="_blank"
                 title="View Document"
-                className="w-30 p-2 rounded-lg mt-3 flex items-center justify-center border border-black md:hidden "
+                className="px-7 py-1.5  rounded-lg mt-3 flex items-center justify-center border border-black md:hidden "
                 href={`https://drive.google.com/file/d/1-drrQKZyWwPapXiK0zSy81mg4k42E2bG/view?usp=sharing`}
               >
                 <Image
-                  src={`/certificates/1.jpg`}
+                  src={`/certificates/link2.png`}
                   alt="xxx"
                   width={0}
                   height={0}
                   sizes="100vh"
-                  className="w-8 h-8 object-cover"
+                  className="w-6 h-6 object-cover"
                 />
               </Link>
             </div>

@@ -14,7 +14,7 @@ export default function Footer() {
       <div className="max-w-3xl mx-auto flex justify-center md:px-0 px-3">
         <div className="flex space-x-3">
           <Image
-            src="/works/1.jpg"
+            src="/banner2.png"
             alt="xxx"
             width={0}
             height={0}

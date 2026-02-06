@@ -158,9 +158,9 @@ export default function NavBar() {
         />
       </div>
       {shouldShowMobileMenu && (
-        <div className="absolute md:hidden flex flex-col space-y-2 left-0 right-0 z-60  bg-white w-full shadow-lg top-full ">
+        <div className="absolute md:hidden h-screen flex flex-col space-y-2 left-0 right-0 z-60  bg-white w-full shadow-lg top-full ">
           <p
-            className={`py-3 px-6 w-full cursor-pointer  ${activeNavElement === "aboutme" ? "bg-pink-600  text-white" : "hover:bg-gray-200"}`}
+            className={`py-3 px-6 w-full cursor-pointer  ${activeNavElement === "aboutme" ? "bg-blue-400  text-white" : "hover:bg-gray-200"}`}
             onClick={() => {
               ChangeScrollTo("aboutme");
               setActiveNavElemenet("aboutme");
@@ -170,7 +170,7 @@ export default function NavBar() {
           </p>
 
           <p
-            className={`py-3 px-6 w-full cursor-pointer ${activeNavElement === "skills" ? "bg-pink-600  text-white" : "hover:bg-gray-200"} `}
+            className={`py-3 px-6 w-full cursor-pointer ${activeNavElement === "skills" ? "bg-blue-400  text-white" : "hover:bg-gray-200"} `}
             onClick={() => {
               ChangeScrollTo("skills");
               setActiveNavElemenet("skills");
@@ -180,7 +180,7 @@ export default function NavBar() {
           </p>
 
           <p
-            className={`py-3 px-6 w-full cursor-pointer ${activeNavElement === "works" ? "bg-pink-600  text-white" : "hover:bg-gray-200"} `}
+            className={`py-3 px-6 w-full cursor-pointer ${activeNavElement === "works" ? "bg-blue-400  text-white" : "hover:bg-gray-200"} `}
             onClick={() => {
               ChangeScrollTo("works");
               setActiveNavElemenet("works");
@@ -190,7 +190,7 @@ export default function NavBar() {
           </p>
 
           <p
-            className={`py-3 px-6 w-full cursor-pointer ${activeNavElement === "certs" ? "bg-pink-600  text-white" : "hover:bg-gray-200"} `}
+            className={`py-3 px-6 w-full cursor-pointer ${activeNavElement === "certs" ? "bg-blue-400  text-white" : "hover:bg-gray-200"} `}
             onClick={() => {
               ChangeScrollTo("certs");
               setActiveNavElemenet("certs");
@@ -200,7 +200,7 @@ export default function NavBar() {
           </p>
 
           <p
-            className={`py-3 px-6 w-full cursor-pointer ${activeNavElement === "contact" ? "bg-pink-600  text-white" : "hover:bg-gray-200"} `}
+            className={`py-3 px-6 w-full cursor-pointer ${activeNavElement === "contact" ? "bg-blue-400  text-white" : "hover:bg-gray-200"} `}
             onClick={() => {
               ChangeScrollTo("contact");
               setActiveNavElemenet("contact");

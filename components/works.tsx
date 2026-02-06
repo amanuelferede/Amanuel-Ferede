@@ -31,20 +31,11 @@ export default function Works() {
       <div className="grid md:grid-cols-3 gap-5">
         {works.map((work, index) => {
           return (
-            <div className="w-full shadow-md group cursor-pointer" key={index}>
-              <Image
-                src={work.bImage}
-                alt="xxx"
-                width={0}
-                height={0}
-                sizes="100vh"
-                className="w-full object-cover mb-3"
-              />
-              <div className="p-4 relative ">
-                <div className="absolute md:flex hidden items-center space-x-4 justify-center h-1 opacity-0 group-hover:opacity-100 group-hover:h-full transition-all duration-200 ease-in-out left-0 right-0 bottom-0 bg-linear-to-r from-blue-500 to-blue-100/90 p-4 text-white">
+            <div className="w-full md:rounded-lg relative group overflow-hidden shadow-md md:hover:-translate-y-2 md:transition-all md:duration-500 md:ease-in-out group cursor-pointer" key={index}>
+                <div className="absolute z-10 md:flex hidden items-center space-x-4 group-hover:justify-around transition-all  justify-center h-1 opacity-0 group-hover:opacity-100 group-hover:h-100  duration-400 ease-in-out left-0 right-0 bottom-0 bg-black/55 p-4 text-white">
                   <Link target="_blank" href={work.url} title="Live demo">
                     <Image
-                      src={`/works/link2.png`}
+                      src={`/works/link.png`}
                       alt="xxx"
                       width={0}
                       height={0}
@@ -67,12 +58,24 @@ export default function Works() {
                     className="w-9 h-9 object-cover cursor-pointer"
                   />
                 </div>
-                <div className="h-full">
-                  <p className="text-xl font-bold font-sans mb-1">
+              <Image
+                src={work.bImage}
+                alt="xxx"
+                width={0}
+                height={0}
+                sizes="100vh"
+                className="w-full object-cover mb-3"
+              />
+
+              
+                <div className="-z-10 p-4">
+                  <p className="text-xl font-bold font-sans mb-1 ">
                     {work.title}
                   </p>
-                  <p className="text-zinc-600">{work.techs}</p>
+                  <p className="text-zinc-600 ">{work.techs}</p>
                 </div>
+              
+            
                 <Link
                   target="_blank"
                   href={work.url}
@@ -89,7 +92,7 @@ export default function Works() {
                   <span className="text-white">Live Demo</span>
                 </Link>
               </div>
-            </div>
+ 
           );
         })}
       </div>
