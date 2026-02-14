@@ -45,7 +45,7 @@ export default function Works() {
                   </Link>
 
                   <Image
-                    src={`/works/info.png`}
+                    src={`/works/info (1).png`}
                     title="View detail"
                     onClick={() => {
                       setShouldShowWorkModal(true);
