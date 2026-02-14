@@ -10,7 +10,7 @@ export const works = [
       "/works/fb-clone/1.png",
       "/works/fb-clone/1.png",
     ],
-    url: "https://fb-clone-teal-one.vercel.app//",
+    url: "https://facebook-clone-two-snowy.vercel.app/",
   },
 
   {
