@@ -192,8 +192,8 @@ export default function NavBar() {
           <p
             className={`py-3 px-6 w-full cursor-pointer ${activeNavElement === "certs" ? "bg-blue-400  text-white" : "hover:bg-gray-200"} `}
             onClick={() => {
-              ChangeScrollTo("certs");
-              setActiveNavElemenet("certs");
+              ChangeScrollTo("certificates");
+              setActiveNavElemenet("certificates");
             }}
           >
             Certificates
