@@ -114,8 +114,8 @@ export default function NavBar() {
               scrollPosition < 70 ? "text-black" : "text-black"
             }`}
             onClick={() => {
-              ChangeScrollTo("certs");
-              setActiveNavElemenet("certs");
+              ChangeScrollTo("certificates");
+              setActiveNavElemenet("certificates");
             }}
           >
             Certificates
