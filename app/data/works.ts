@@ -51,7 +51,7 @@ export const works = [
     bImage: "/works/medico/c.png",
     desk: "This is a static Medico website from medico website powered by bootstrapmade, it has many features that covers most scienarios in static ad websites like navbar, gallery, carousel, transitons and animations, it is done using react componenets though it is done using next.js",
     Images: ["/works/medico/1.png", "/works/medico/1.png", "/works/medico/1.png", "/works/medico/1.png"],
-    url: "https://medico-snowy-eight.vercel.app/",
+    url: "https://medico-bay-six.vercel.app/",
   },
 
   {
