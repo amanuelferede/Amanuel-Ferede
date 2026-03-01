@@ -1,21 +1,18 @@
-import AboutMe from "./components/aboutme";
+import AboutUs from "./components/aboutus";
 import Banner from "./components/banner";
-import Certificates from "./components/certificates";
 import ContactMe from "./components/contact";
 import Footer from "./components/footer";
-import Skills from "./components/skills";
-import Works from "./components/works";
+import Services from "./components/services";
+import WhatWebuild from "./components/whatwebuild";
 
 
 export default function Home() {
   return (
 <>
       <Banner />
-      <AboutMe />
-      <Certificates />
+      <AboutUs/>
+      <Services />
 
-      <Skills />
-      <Works />
       <ContactMe />
       <Footer />
     </>

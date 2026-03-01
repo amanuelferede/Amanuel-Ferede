@@ -10,7 +10,7 @@ import { FiInstagram } from "react-icons/fi";
 
 export default function ContactMe() {
   return (
-    <div className="max-w-6xl mx-auto py-5" id="contact">
+    <div className="lg:max-w-7xl xl:max-w-350 mx-auto py-5" id="contact">
       <div className="grid grid-cols-12 md:gap-10">
         <div className="md:col-span-6 col-span-12 md:px-0 px-3">
           <div className="flex flex-col  space-y-6">

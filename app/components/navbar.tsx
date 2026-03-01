@@ -1,6 +1,7 @@
 "use client";
 import { useState, useEffect } from "react";
 import { HiOutlineBars3BottomRight } from "react-icons/hi2";
+import { navBarData } from "../data/navbar";
 
 export default function NavBar() {
   const [shouldShowMobileMenu, setShouldShowMobileMenu] =
@@ -33,7 +34,7 @@ export default function NavBar() {
 
   return (
     <div
-      className={` py-4 px-6 transition-all duration-1000 ease-in-out  w-full flex items-center justify-between  fixed z-50 top-0 left-0 right-0 ${
+      className={` py-6 px-6 transition-all duration-1000 ease-in-out  w-full flex items-center justify-between  fixed z-50 top-0 left-0 right-0 ${
         scrollPosition < 70 ? "bg-transparent" : "bg-white shadow-md"
       }`}
     >
@@ -44,108 +45,39 @@ export default function NavBar() {
             setActiveNavElemenet("home");
           }}
           className={`text-xl font-bold cursor-pointer ${
-            scrollPosition < 70 ? "text-black" : "text-black"
+            scrollPosition < 70 ? "text-white" : "text-black"
           } `}
         >
-          Amanuel Ferede
+          Spider technologies
         </p>
       </div>
       <div className="md:flex hidden space-x-15">
-        <div className="group cursor-pointer">
+        {
+          navBarData.map((nd, index) => {
+            return (
+              <div className="group cursor-pointer" key={index}>
           <p
             className={`rounded-md font-bold  ${
-              scrollPosition < 70 ? "text-black" : "text-black"
+              scrollPosition < 70 ? "text-white" : "text-black"
             }`}
             onClick={() => {
-              ChangeScrollTo("aboutme");
-              setActiveNavElemenet("aboutme");
+              ChangeScrollTo(nd.value);
+              setActiveNavElemenet(nd.value);
             }}
           >
-            About Me
+            {nd.name}
           </p>
-          {activeNavElement !== "aboutme" && (
+          {activeNavElement !== nd.value && (
             <p className="h-1 w-0 group-hover:w-full transition-all duration-200 ease-in-out bg-blue-400"></p>
           )}
-          {activeNavElement === "aboutme" && (
+          {activeNavElement === nd.value && (
             <p className="h-1 w-full group-hover:w-full transition-all duration-200 ease-in-out bg-blue-400"></p>
           )}
         </div>
-        <div className="group cursor-pointer">
-          <p
-            className={`rounded-md font-bold  ${
-              scrollPosition < 70 ? "text-black" : "text-black"
-            }`}
-            onClick={() => {
-              ChangeScrollTo("skills");
-              setActiveNavElemenet("skills");
-            }}
-          >
-            Skills
-          </p>
-          {activeNavElement !== "skills" && (
-            <p className="h-1 w-0 group-hover:w-full transition-all duration-200 ease-in-out bg-blue-400"></p>
-          )}
-          {activeNavElement === "skills" && (
-            <p className="h-1 w-full group-hover:w-full transition-all duration-200 ease-in-out bg-blue-400"></p>
-          )}
-        </div>
-        <div className="group cursor-pointer">
-          <p
-            className={`rounded-md font-bold  ${
-              scrollPosition < 70 ? "text-black" : "text-black"
-            }`}
-            onClick={() => {
-              ChangeScrollTo("works");
-              setActiveNavElemenet("works");
-            }}
-          >
-            Works
-          </p>
-          {activeNavElement !== "works" && (
-            <p className="h-1 w-0 group-hover:w-full transition-all duration-200 ease-in-out bg-blue-400"></p>
-          )}
-          {activeNavElement === "works" && (
-            <p className="h-1 w-full group-hover:w-full transition-all duration-200 ease-in-out bg-blue-400"></p>
-          )}{" "}
-        </div>
-        <div className="group cursor-pointer">
-          <p
-            className={`rounded-md font-bold  ${
-              scrollPosition < 70 ? "text-black" : "text-black"
-            }`}
-            onClick={() => {
-              ChangeScrollTo("certificates");
-              setActiveNavElemenet("certificates");
-            }}
-          >
-            Certificates
-          </p>
-          {activeNavElement !== "certs" && (
-            <p className="h-1 w-0 group-hover:w-full transition-all duration-200 ease-in-out bg-blue-400"></p>
-          )}
-          {activeNavElement === "certs" && (
-            <p className="h-1 w-full group-hover:w-full transition-all duration-200 ease-in-out bg-blue-400"></p>
-          )}{" "}
-        </div>
-        <div className="group cursor-pointer">
-          <p
-            className={`rounded-md font-bold  ${
-              scrollPosition < 70 ? "text-black" : "text-black"
-            }`}
-            onClick={() => {
-              ChangeScrollTo("contact");
-              setActiveNavElemenet("contact");
-            }}
-          >
-            Contact Me
-          </p>
-          {activeNavElement !== "contact" && (
-            <p className="h-1 w-0 group-hover:w-full transition-all duration-200 ease-in-out bg-blue-400"></p>
-          )}
-          {activeNavElement === "contact" && (
-            <p className="h-1 w-full group-hover:w-full transition-all duration-200 ease-in-out bg-blue-400"></p>
-          )}{" "}
-        </div>
+            )
+          })
+        }
+        
       </div>
       <div className="md:hidden block">
         <HiOutlineBars3BottomRight
