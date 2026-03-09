@@ -8,12 +8,12 @@ import WhatWebuild from "./components/whatwebuild";
 
 export default function Home() {
   return (
-<>
+    <>
       <Banner />
-      <AboutUs/>
-      <Services />
+        <AboutUs />
+        <Services />
 
-      <ContactMe />
+        <ContactMe />
       <Footer />
     </>
 

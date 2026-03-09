@@ -2,6 +2,7 @@
 import { useState, useEffect } from "react";
 import { HiOutlineBars3BottomRight } from "react-icons/hi2";
 import { navBarData } from "../data/navbar";
+import { CgClose } from "react-icons/cg";
 
 export default function NavBar() {
   const [shouldShowMobileMenu, setShouldShowMobileMenu] =
@@ -90,7 +91,8 @@ export default function NavBar() {
         />
       </div>
       {shouldShowMobileMenu && (
-        <div className="absolute md:hidden h-screen flex flex-col space-y-2 left-0 right-0 z-60  bg-white w-full shadow-lg top-full ">
+        <div className="absolute md:hidden h-screen flex flex-col space-y-2 left-0 right-0 z-60  bg-white w-full shadow-lg top-0 py-12 ">
+          <CgClose className="w-15 h-15 p-3 absolute top-1 right-3 text-black cursor-pointer" onClick={() => {setShouldShowMobileMenu(false)}}/>
           <p
             className={`py-3 px-6 w-full cursor-pointer  ${activeNavElement === "aboutme" ? "bg-blue-400  text-white" : "hover:bg-gray-200"}`}
             onClick={() => {

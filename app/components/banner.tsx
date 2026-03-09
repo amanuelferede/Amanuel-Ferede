@@ -2,13 +2,17 @@ import Image from "next/image";
 export default function Banner() {
   return (
 <>
-    <div className="w-full md:hidden flex space-x-2 mt-15">
-      <Image src={`/c.jpg`} className="w-20  h-20 object-cover text-center rounded-full" sizes="100vh" width={0} height={0} alt="Amanuel Ferede"/>
+    <div className="w-full flex pt-50 justify-center md:hidden min-h-screen bg-red-400 flex space-x-2 mt-15"   style={{
+        backgroundImage: 'url("c.jpg")',
+        backgroundPosition: "top center",
+        backgroundSize: "cover",
+        backgroundRepeat: "no-repeat",
+      }}>
         <div className="text-black grow">
-        <p className="text-xs font-bold text-white mb-2">
+        <p className="text-4xl text-center font-bold text-white mb-2">
           Make life easier with us
         </p>
-        <p className="text-white  text-[0.975rem]">
+        <p className="text-white text-center  text-[0.975rem]">
                    Any design you want for your business.
 
         </p>
