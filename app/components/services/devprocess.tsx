@@ -1,16 +1,16 @@
 export default function OurDevelopmentProcess() {
     return (
-        <div className=" md:py-15 py-5 lg:max-w-6xl xl:max-w-350 mx-auto ">
-            <div className="text-center md:w-3/4 w-full">
+        <div className=" md:pb-15 py-5 lg:max-w-6xl xl:max-w-350 mx-auto ">
+                <div className="text-center md:max-w-5xl py-10 md:mx-auto w-full md:px-0 px-3">
                 <div className="text-center md:w-3/4 w-full">
-                    <p className="border-l-8 my-7 border-blue-700 pl-5 text-3xl  text-center my-1 inline-block">
-                        <p className=" p-3 font-semibold md:text-justify text-3xl">Our development process.
+                    <div className="border-l-8 md:border-blue-700 md:pl-5">
+                        <p className="font-semibold md:text-justify text-3xl mb-2">Our development process.
 
                         </p>
-                        <p className=" p-3 md:text-justify text-xl">Our proven 5 tep developmenet process ensures transparency, timely delivery and exceptional resutls.
+                        <p className=" md:text-justify text-xl">Our proven 5 tep developmenet process ensures transparency, timely delivery and exceptional resutls.
                             .</p>
 
-                    </p>
+                    </div>
                 </div>
             </div>
 

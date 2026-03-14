@@ -11,7 +11,7 @@ import { FiInstagram } from "react-icons/fi";
 export default function ContactMe() {
   return (
     <div className="lg:max-w-7xl xl:max-w-350 mx-auto py-5" id="contact">
-      <div className="grid grid-cols-12 md:gap-10">
+      <div className="grid grid-cols-12 md:gap-10 gap-6">
         <div className="md:col-span-6 col-span-12 md:px-0 px-3">
           <div className="flex flex-col  space-y-6">
             <input
@@ -33,9 +33,9 @@ export default function ContactMe() {
             </button>
           </div>
         </div>
-        <div className="md:col-span-6 col-span-12 md:px-0 px-3 flex items-start md:justify-center">
+        <div className="md:col-span-6 col-span-12 md:px-0 px-3 md:flex md:items-center  md:justify-center">
           <div className="flex flex-col">
-            <p className="text-zinc-500 my-2">Get me on</p>
+            
 
             <div className="flex md:space-x-5 space-x-3">
               <FaFacebook className="md:w-9 md:h-9 w-7 h-7 md:hover:text-pink-500 transition-all duration-400 ease-in-out cursor-pointer" />

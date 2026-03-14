@@ -2,13 +2,13 @@ import { DiJava } from "react-icons/di";
 
 export default function WhyChooseUs() {
     return (
-     <div className="md:py-15 py-5 lg:max-w-6xl xl:max-w-350 mx-auto">
-           <div className="text-center md:w-3/4 w-full">
+     <div className=" lg:max-w-6xl xl:max-w-350 mx-auto">
+                <div className="text-center md:max-w-5xl py-10 md:mx-auto w-full md:px-0 px-3">
         <div className="text-center">
-          <div className="border-l-8 my-7 border-l-blue-600 pl-5 text-2xl  text-center my-1 inline-block">
-            <p className=" p-3 font-semibold md:text-justify text-xl">Why choose us.
+          <div className="border-l-8 my-7 border-l-blue-600 pl-5  text-center my-1 inline-block">
+            <p className="font-semibold mb-2 md:text-justify text-3xl">Why choose us.
             </p>
-            <p className=" p-3 md:text-justify text-xl">We understand that every business is unique, and so should be its website. Our mission is to create digital expereinces that not only look great but aslo perform flawlessly.</p>
+            <p className="md:text-justify text-xl">We understand that every business is unique, and so should be its website. Our mission is to create digital expereinces that not only look great but aslo perform flawlessly.</p>
 
           </div>
         </div>

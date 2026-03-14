@@ -28,15 +28,14 @@ export default function Banner() {
       }}
     >
     
-      <div className="md:block hidden absolute top-28 left-5  w-160 ">
-        <p className="text-6xl font-bold text-white">Make life easier with us</p>
-      </div>
-
-      <div className="md:block hidden absolute top-28 right-10 w-110 ">
-        <p className="text-2xl font-sans text-justify font-extrabold text-white ">
+      <div className="md:block hidden absolute top-1/4 left-20  w-1/2 ">
+        <p className="text-6xl mb-5 font-bold text-white">Make life easier with us</p>
+         <p className="text-2xl font-sans text-justify font-extrabold text-white ">
           Any design you want for your business.
         </p>
       </div>
+
+   
     </div>
 </>
   );

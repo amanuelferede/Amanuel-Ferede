@@ -6,7 +6,7 @@ import { CgClose } from "react-icons/cg";
 
 export default function NavBar() {
   const [shouldShowMobileMenu, setShouldShowMobileMenu] =
-    useState<boolean>(false); //DRY but i am lazy, life is too short
+    useState<boolean>(false); 
 
   const [scrollPosition, setScrollPosition] = useState<number>(0);
   const [activeNavElement, setActiveNavElemenet] = useState<string>("");
@@ -36,7 +36,7 @@ export default function NavBar() {
   return (
     <div
       className={` py-6 px-6 transition-all duration-1000 ease-in-out  w-full flex items-center justify-between  fixed z-50 top-0 left-0 right-0 ${
-        scrollPosition < 70 ? "bg-transparent" : "bg-white shadow-md"
+        scrollPosition < 70 ? "bg-transparent border-b-[0.009px] pb-10 border-b-sky-600" : "bg-white shadow-md"
       }`}
     >
       <div className="flex space-x-2">
