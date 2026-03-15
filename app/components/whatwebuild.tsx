@@ -1,6 +1,5 @@
 "use client";
 import Image from "next/image";
-import Link from "next/link";
 import { useState } from "react";
 import WorkModal from "./workmodal";
 import { serviceTypes } from "../data/works";
@@ -8,7 +7,7 @@ import { serviceTypes } from "../data/works";
 export default function WhatWebuild() {
   const [shouldShowWorkModal, setShouldShowWorkModal] =
     useState<boolean>(false);
-  const [selectedWork, setSelectedWork] = useState<{
+  const [selectedWork] = useState<{
     title: string;
     techs: string;
     bImage: string;
@@ -32,7 +31,10 @@ export default function WhatWebuild() {
       <div className="grid md:grid-cols-3 gap-5">
         {serviceTypes.map((st, index) => {
           return (
-            <div className="w-full md:rounded-lg relative group overflow-hidden md:shadow-md md:hover:-translate-y-2 md:transition-all md:duration-500 md:ease-in-out group cursor-pointer" key={index}>            
+            <div
+              className="w-full md:rounded-lg relative group overflow-hidden md:shadow-md md:hover:-translate-y-2 md:transition-all md:duration-500 md:ease-in-out group cursor-pointer"
+              key={index}
+            >
               <Image
                 src={st.coverImage}
                 alt="xxx"
@@ -42,18 +44,11 @@ export default function WhatWebuild() {
                 className="w-full object-cover mb-3"
               />
 
-              
-                <div className="-z-10 p-4">
-                  <p className="text-xl font-bold font-sans mb-1 ">
-                    {st.type}
-                  </p>
-                  <p className="text-zinc-600 ">{st.description}</p>
-                </div>
-              
-            
-                
+              <div className="-z-10 p-4">
+                <p className="text-xl font-bold font-sans mb-1 ">{st.type}</p>
+                <p className="text-zinc-600 ">{st.description}</p>
               </div>
- 
+            </div>
           );
         })}
       </div>
