@@ -1,9 +1,25 @@
+"use client";
 import Image from "next/image";
 
 export default function ServiceTypes() {
+  const goToServices = (serviceType: string) => {
+    const element = document.getElementById(`${serviceType}`);
+    window.scrollTo({
+      top: element!.offsetTop - 70,
+      behavior: "smooth",
+    });
+  };
   return (
-    <div className="grid md:grid-cols-3 gap-5  py-5 md:px-0 px-3 lg:max-w-6xl xl:max-w-350 mx-auto">
-      <div className="  md:rounded-xl md:hover:-translate-y-3 transition-all duration-300 ease-in-out shadow-xl text-center flex items-center justify-center">
+    <div
+      className="grid md:grid-cols-3 gap-5  py-5 md:px-0 px-3 lg:max-w-6xl xl:max-w-350 mx-auto"
+      id="services"
+    >
+      <div
+        className="cursor-pointer  md:rounded-xl md:hover:-translate-y-3 transition-all duration-300 ease-in-out shadow-xl text-center flex items-center justify-center"
+        onClick={() => {
+          goToServices("web-dev-service");
+        }}
+      >
         <div className="flex flex-col space-y-2">
           <Image
             src={`/services/web dev.jpg`}
@@ -24,7 +40,12 @@ export default function ServiceTypes() {
         </div>
       </div>
 
-      <div className="  md:rounded-xl md:hover:-translate-y-3 transition-all duration-300 ease-in-out shadow-xl text-center flex items-center justify-center">
+      <div
+        className="cursor-pointer  md:rounded-xl md:hover:-translate-y-3 transition-all duration-300 ease-in-out shadow-xl text-center flex items-center justify-center"
+        onClick={() => {
+          goToServices("soft-dev-service");
+        }}
+      >
         <div className="flex flex-col space-y-2">
           <Image
             src={`/services/software dev.jpg`}
@@ -48,7 +69,12 @@ export default function ServiceTypes() {
         </div>
       </div>
 
-      <div className="  md:rounded-xl md:hover:-translate-y-3 transition-all duration-300 ease-in-out shadow-xl text-center flex items-center justify-center">
+      <div
+        className="cursor-pointer  md:rounded-xl md:hover:-translate-y-3 transition-all duration-300 ease-in-out shadow-xl text-center flex items-center justify-center"
+        onClick={() => {
+          goToServices("graphics-desgin-service");
+        }}
+      >
         <div className="flex flex-col space-y-2">
           <Image
             src={`/services/graphics design.jpg`}

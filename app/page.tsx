@@ -3,19 +3,17 @@ import Banner from "./components/banner";
 import ContactMe from "./components/contact";
 import Footer from "./components/footer";
 import Services from "./components/services";
-import WhatWebuild from "./components/whatwebuild";
-
+import GraphicDesginService from "./components/services/gdservice";
 
 export default function Home() {
   return (
     <>
       <Banner />
-        <AboutUs />
-        <Services />
-
-        <ContactMe />
+      <AboutUs />
+      <Services />
+      <GraphicDesginService />
+      <ContactMe />
       <Footer />
     </>
-
   );
 }

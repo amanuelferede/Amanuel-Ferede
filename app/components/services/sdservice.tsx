@@ -1,7 +1,10 @@
 import Image from "next/image";
 export default function SoftwareDevelopmentServices() {
   return (
-    <div className="pb-15 lg:max-w-6xl xl:max-w-350 md:px-0 px-3 mx-auto">
+    <div
+      className="lg:max-w-6xl xl:max-w-350 md:px-0 px-3 py-5 mx-auto"
+      id="soft-dev-service"
+    >
       <div className="text-center md:max-w-5xl py-10 md:mx-auto w-full md:px-0 px-3">
         <div className="md:border-l-8 md:border-l-sky-600 md:pl-5  text-center inline-block">
           <p className="mb-2 font-semibold text-justify text-3xl">

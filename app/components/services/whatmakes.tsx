@@ -1,7 +1,7 @@
 import Image from "next/image";
 export default function WhatMakes() {
   return (
-    <div className=" md:pb-15 py-5 bg-sky-100">
+    <div className=" py-5 bg-sky-100">
       <div className=" lg:max-w-6xl xl:max-w-350 mx-auto">
         <div className="text-center md:max-w-5xl py-10 md:mx-auto w-full md:px-0 px-3">
           <div className="text-center md:w-3/4 w-full">
@@ -17,7 +17,7 @@ export default function WhatMakes() {
             </div>
           </div>
         </div>
-        <div className="grid md:grid-cols-3 gap-5 md:px-0 px-3">
+        <div className="grid md:grid-cols-3 md:gap-7 gap-5 md:px-0 px-3">
           <div className="h-75 md:hover:-translate-y-3 transition-all duration-300 ease-in-out bg-white md:rounded-lg p-5 md:shadow-lg shadow-md text-center flex items-center justify-center">
             <div className="flex flex-col space-y-2 items-center">
               <Image

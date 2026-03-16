@@ -1,6 +1,6 @@
 export default function AboutUs() {
   return (
-    <div className="bg-sky-200 w-full h-screen py-5 md:px-0 px-3 " id="aboutme">
+    <div className="bg-sky-200 w-full h-screen py-5 md:px-0 px-3 " id="aboutus">
       <div className="max-w-7xl mx-auto h-full relative ">
         <div className="md:absolute md:z-20 md:top-1/2 md:h-1/2 md:w-2/3 md:-translate-y-1/2">
           <div className="bg-sky-200 p-10 absolute border-t-4 border-l-4 border-l-sky-600 border-t-sky-600">
