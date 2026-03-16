@@ -94,7 +94,7 @@ export default function GraphicDesginService() {
           <div className="flex flex-col space-y-2">
             <div className="h-55 bg-sky-100 hover:bg-sky-800 transition-all duration-200 group ease-in-out md:rounded-tr-[3rem] flex items-center justify-center">
               <p className="text-4xl text-sky-900 font-bold group-hover:text-white transition-all duration-100 ease-in-out">
-                Logo desgin
+                Motion graphics
               </p>
             </div>
 
