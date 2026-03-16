@@ -15,28 +15,26 @@ export default function ContactMe() {
         <div className="md:col-span-6 col-span-12 md:px-0 px-3">
           <div className="flex flex-col  space-y-6">
             <input
-              className="w-full p-4 focus:outline-none rounded-sm border border-gray-300 focus:border-2 focus:border-gray-300"
+              className="w-full p-4 focus:outline-none rounded-lg py-5 border border-sky-600 focus:border-2 focus:border-sky-600"
               placeholder="Enter your name"
             ></input>
             <input
-              className="w-full p-4 focus:outline-none rounded-sm border border-gray-300 focus:border-2 focus:border-gray-300"
+              className="w-full p-4 focus:outline-none rounded-lg py-5 border border-sky-600 focus:border-2 focus:border-sky-600"
               placeholder="Enter your email"
             ></input>
 
             <textarea
               rows={4}
-              className="w-full p-4 focus:outline-none rounded-sm border border-gray-300 focus:border-2 focus:border-gray-300"
+              className="w-full p-4 focus:outline-none rounded-lg py-5 border border-sky-600 focus:border-2 focus:border-sky-600"
               placeholder="Enter your name"
             />
-            <button className="md:ml-0 ml-4 md:w-4/12 w-1/2 py-2 px-3 text-center rounded-lg bg-sky-600 text-white">
+            <button className="md:ml-0 ml-4 md:w-4/12 w-1/2 py-5 px-3 text-center rounded-lg bg-sky-600 text-white">
               Send Message
             </button>
           </div>
         </div>
         <div className="md:col-span-6 col-span-12 md:px-0 px-3 md:flex md:items-center  md:justify-center">
           <div className="flex flex-col">
-            
-
             <div className="flex md:space-x-5 space-x-3">
               <FaFacebook className="md:w-9 md:h-9 w-7 h-7 md:hover:text-pink-500 transition-all duration-400 ease-in-out cursor-pointer" />
               <FiInstagram className="md:w-9 md:h-9 w-7 h-7 md:hover:text-pink-500 transition-all duration-400 ease-in-out cursor-pointer" />

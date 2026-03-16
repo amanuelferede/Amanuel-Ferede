@@ -5,7 +5,7 @@ export default function WhatMakes() {
       <div className=" lg:max-w-6xl xl:max-w-350 mx-auto">
         <div className="text-center md:max-w-5xl py-10 md:mx-auto w-full md:px-0 px-3">
           <div className="text-center md:w-3/4 w-full">
-            <div className="md:border-l-8 md:my-7 md:border-blue-700 md:pl-5 text-center">
+            <div className="md:border-l-8 md:my-7 md:border-l-sky-700 md:pl-5 text-center">
               <p className="font-semibold md:text-justify text-3xl mb-2">
                 What makes our web solutions stand out.
               </p>
@@ -18,7 +18,7 @@ export default function WhatMakes() {
           </div>
         </div>
         <div className="grid md:grid-cols-3 gap-5 md:px-0 px-3">
-          <div className="h-75 bg-white md:rounded-lg p-5 md:shadow-lg shadow-md text-center flex items-center justify-center">
+          <div className="h-75 md:hover:-translate-y-3 transition-all duration-300 ease-in-out bg-white md:rounded-lg p-5 md:shadow-lg shadow-md text-center flex items-center justify-center">
             <div className="flex flex-col space-y-2 items-center">
               <Image
                 src={`/what makes/planning.png`}
@@ -35,7 +35,7 @@ export default function WhatMakes() {
               </p>
             </div>
           </div>
-          <div className="h-75 bg-white md:rounded-lg p-5 md:shadow-lg shadow-md text-center flex items-center justify-center">
+          <div className="h-75 md:hover:-translate-y-3 transition-all duration-300 ease-in-out bg-white md:rounded-lg p-5 md:shadow-lg shadow-md text-center flex items-center justify-center">
             <div className="flex flex-col space-y-2 items-center">
               <Image
                 src={`/what makes/front-end-programming.png`}
@@ -52,7 +52,7 @@ export default function WhatMakes() {
               </p>
             </div>
           </div>
-          <div className="h-75 bg-white md:rounded-lg p-5 md:shadow-lg shadow-md text-center flex items-center justify-center">
+          <div className="h-75 md:hover:-translate-y-3 transition-all duration-300 ease-in-out bg-white md:rounded-lg p-5 md:shadow-lg shadow-md text-center flex items-center justify-center">
             <div className="flex flex-col space-y-2 items-center">
               <Image
                 src={`/what makes/function.png`}
@@ -69,7 +69,7 @@ export default function WhatMakes() {
               </p>
             </div>
           </div>
-          <div className="h-75 bg-white md:rounded-lg p-5 md:shadow-lg shadow-md text-center flex items-center justify-center">
+          <div className="h-75 md:hover:-translate-y-3 transition-all duration-300 ease-in-out bg-white md:rounded-lg p-5 md:shadow-lg shadow-md text-center flex items-center justify-center">
             <div className="flex flex-col space-y-2 items-center">
               <Image
                 src={`/what makes/mobile.png`}
@@ -87,7 +87,7 @@ export default function WhatMakes() {
             </div>
           </div>
 
-          <div className="h-75 bg-white md:rounded-lg p-5 md:shadow-lg shadow-md text-center flex items-center justify-center">
+          <div className="h-75 md:hover:-translate-y-3 transition-all duration-300 ease-in-out bg-white md:rounded-lg p-5 md:shadow-lg shadow-md text-center flex items-center justify-center">
             <div className="flex flex-col space-y-2 items-center">
               <Image
                 src={`/what makes/customer-service-agent.png`}

@@ -3,7 +3,7 @@ export default function WebDesginServices() {
   return (
     <div className="pb-15 lg:max-w-6xl xl:max-w-350 mx-auto">
       <div className="text-center md:max-w-5xl py-10 md:mx-auto w-full md:px-0 px-3">
-        <div className="md:border-l-8 md:my-7  border-l-blue-600 md:pl-5  text-center my-1 inline-block">
+        <div className="md:border-l-8 md:my-7  border-l-sky-600 md:pl-5  text-center my-1 inline-block">
           <p className="font-semibold text-justify text-3xl mb-2">
             Web design.
           </p>
@@ -18,16 +18,16 @@ export default function WebDesginServices() {
       </div>
       <div className="grid md:grid-cols-2 md:gap-6">
         <div
-          className="md:h-1/2 md:bg-sky-200 md:sticky md:top-20 md:flex md:items-center md:justify-center md:p-20"
+          className="md:h-1/2 overflow-hidden md:bg-sky-50  md:sticky md:top-20 md:flex md:items-center md:justify-center md:p-20"
           style={{}}
         >
-          <p className="md:block hidden text-center  md:text-5xl text-3xl  ">
+          <p className="md:block md:py-40 hidden text-center  md:text-5xl text-3xl md:animate-pulse font-bold md:border-2 md:rounded-4xl border-sky-700 md:p-10  ">
             Web design services
           </p>
         </div>
         <div>
           <div className="grid md:grid-cols-2 gap-4">
-            <div className="h-75 p-5  rounded-xl md:shadow-xl shadow-md  text-center flex items-center justify-center">
+            <div className="h-75 md:hover:-translate-y-3 transition-all duration-300 ease-in-out p-5  rounded-xl md:shadow-xl shadow-md  text-center flex items-center justify-center">
               <div className="flex flex-col space-y-2 items-center">
                 <Image
                   src={`/wd-services/headquarter.png`}
@@ -37,7 +37,7 @@ export default function WebDesginServices() {
                   sizes="100vh"
                   alt="web desgin"
                 />
-                <p className="font-semibold text-lg">
+                <p className="font-semibold text-lg text-sky-900">
                   Corporate webiste design.
                 </p>
                 <p>
@@ -45,7 +45,7 @@ export default function WebDesginServices() {
                 </p>
               </div>
             </div>
-            <div className="h-75 p-5 rounded-xl md:shadow-xl shadow-md  text-center flex items-center justify-center">
+            <div className="h-75 md:hover:-translate-y-3 transition-all duration-300 ease-in-out p-5 rounded-xl md:shadow-xl shadow-md  text-center flex items-center justify-center">
               <div className="flex flex-col space-y-2 items-center">
                 <Image
                   src={`/wd-services/e-commerce.png`}
@@ -55,13 +55,13 @@ export default function WebDesginServices() {
                   sizes="100vh"
                   alt="web desgin"
                 />
-                <p className="font-semibold text-lg">
+                <p className="font-semibold text-lg text-sky-900">
                   E-commerce website design.
                 </p>
                 <p>User-centric layouts with optimized product displays.</p>
               </div>
             </div>
-            <div className="h-75 p-5 rounded-xl md:shadow-xl shadow-md  text-center flex items-center justify-center">
+            <div className="h-75 md:hover:-translate-y-3 transition-all duration-300 ease-in-out p-5 rounded-xl md:shadow-xl shadow-md  text-center flex items-center justify-center">
               <div className="flex flex-col space-y-2 items-center">
                 <Image
                   src={`/wd-services/professional-portfolio.png`}
@@ -71,13 +71,13 @@ export default function WebDesginServices() {
                   sizes="100vh"
                   alt="web desgin"
                 />
-                <p className="font-semibold text-lg">
+                <p className="font-semibold text-lg text-sky-900">
                   Portifolio and persoanl websites
                 </p>
                 <p>Creative designs for professionals and artists.</p>
               </div>
             </div>
-            <div className="h-75 p-5 rounded-xl md:shadow-xl shadow-md  text-center flex items-center justify-center">
+            <div className="h-75 md:hover:-translate-y-3 transition-all duration-300 ease-in-out p-5 rounded-xl md:shadow-xl shadow-md  text-center flex items-center justify-center">
               <div className="flex flex-col space-y-2 items-center">
                 <Image
                   src={`/wd-services/landing-pages.png`}
@@ -87,14 +87,16 @@ export default function WebDesginServices() {
                   sizes="100vh"
                   alt="web desgin"
                 />
-                <p className="font-semibold text-lg">Landing page design.</p>
+                <p className="font-semibold text-lg text-sky-900">
+                  Landing page design.
+                </p>
                 <p>Conversion-driven designs for marketing compaings.</p>
               </div>
             </div>
 
-            <div className="h-75 p-5 rounded-xl md:shadow-xl shadow-md  text-center flex items-center justify-center">
+            <div className="h-75 md:hover:-translate-y-3 transition-all duration-300 ease-in-out p-5 rounded-xl md:shadow-xl shadow-md  text-center flex items-center justify-center">
               <div className="flex flex-col space-y-2">
-                <p className="font-semibold text-lg">
+                <p className="font-semibold text-lg text-sky-900">
                   Dedicated local support.
                 </p>
                 <p>
@@ -104,7 +106,7 @@ export default function WebDesginServices() {
                 </p>
               </div>
             </div>
-            <div className="h-75 p-6 rounded-xl md:shadow-xl shadow-md  text-center flex items-center justify-center">
+            <div className="h-75 md:hover:-translate-y-3 transition-all duration-300 ease-in-out p-6 rounded-xl md:shadow-xl shadow-md  text-center flex items-center justify-center">
               <div className="flex flex-col space-y-2 items-center">
                 <Image
                   src={`/wd-services/web-development.png`}
@@ -114,12 +116,12 @@ export default function WebDesginServices() {
                   sizes="100vh"
                   alt="web desgin"
                 />
-                <p className="font-semibold text-lg">
+                <p className="font-semibold text-lg text-sky-900">
                   Cusom webiste development.
                 </p>
               </div>
             </div>
-            <div className="h-75 p-6 rounded-xl md:shadow-xl shadow-md  text-center flex items-center justify-center">
+            <div className="h-75 md:hover:-translate-y-3 transition-all duration-300 ease-in-out p-6 rounded-xl md:shadow-xl shadow-md  text-center flex items-center justify-center">
               <div className="flex flex-col space-y-2 items-center">
                 <Image
                   src={`/wd-services/add.png`}
@@ -129,10 +131,12 @@ export default function WebDesginServices() {
                   sizes="100vh"
                   alt="web desgin"
                 />
-                <p className="font-semibold text-lg">Wordpress development.</p>
+                <p className="font-semibold text-lg text-sky-900">
+                  Wordpress development.
+                </p>
               </div>
             </div>
-            <div className="h-75 p-6 rounded-xl md:shadow-xl shadow-md  text-center flex items-center justify-center">
+            <div className="h-75 md:hover:-translate-y-3 transition-all duration-300 ease-in-out p-6 rounded-xl md:shadow-xl shadow-md  text-center flex items-center justify-center">
               <div className="flex flex-col space-y-2 items-center">
                 <Image
                   src={`/wd-services/web.png`}
@@ -142,12 +146,12 @@ export default function WebDesginServices() {
                   sizes="100vh"
                   alt="web desgin"
                 />
-                <p className="font-semibold text-lg">
+                <p className="font-semibold text-lg text-sky-900">
                   E-commerce platforms (Shopify, Woocommerce, Magento)
                 </p>
               </div>
             </div>
-            <div className="h-75 p-6 rounded-xl md:shadow-xl shadow-md  text-center flex items-center justify-center">
+            <div className="h-75 md:hover:-translate-y-3 transition-all duration-300 ease-in-out p-6 rounded-xl md:shadow-xl shadow-md  text-center flex items-center justify-center">
               <div className="flex flex-col space-y-2 items-center">
                 <Image
                   src={`/wd-services/erp.png`}
@@ -157,10 +161,12 @@ export default function WebDesginServices() {
                   sizes="100vh"
                   alt="web desgin"
                 />
-                <p className="font-semibold text-lg">CMS and ERP integraion.</p>
+                <p className="font-semibold text-lg text-sky-900">
+                  CMS and ERP integraion.
+                </p>
               </div>
             </div>
-            <div className="h-75 p-6 rounded-xl md:shadow-xl shadow-md  text-center flex items-center justify-center">
+            <div className="h-75 md:hover:-translate-y-3 transition-all duration-300 ease-in-out p-6 rounded-xl md:shadow-xl shadow-md  text-center flex items-center justify-center">
               <div className="flex flex-col space-y-2 items-center">
                 <Image
                   src={`/wd-services/webpage-list.png`}
@@ -170,7 +176,7 @@ export default function WebDesginServices() {
                   sizes="100vh"
                   alt="web desgin"
                 />
-                <p className="font-semibold text-lg">
+                <p className="font-semibold text-lg text-sky-900">
                   Web applications and portals..
                 </p>
               </div>

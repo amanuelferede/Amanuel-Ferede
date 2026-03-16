@@ -3,7 +3,7 @@ export default function SoftwareDevelopmentServices() {
   return (
     <div className="pb-15 lg:max-w-6xl xl:max-w-350 md:px-0 px-3 mx-auto">
       <div className="text-center md:max-w-5xl py-10 md:mx-auto w-full md:px-0 px-3">
-        <div className="md:border-l-8 md:border-l-blue-600 md:pl-5  text-center inline-block">
+        <div className="md:border-l-8 md:border-l-sky-600 md:pl-5  text-center inline-block">
           <p className="mb-2 font-semibold text-justify text-3xl">
             Software development.
           </p>
@@ -17,7 +17,7 @@ export default function SoftwareDevelopmentServices() {
         </div>
       </div>
       <div className="grid md:grid-cols-3 gap-5">
-        <div className="md:h-65 h-50 p-6 md:rounded-xl md:shadow-xl shadow-md text-center flex items-center justify-center">
+        <div className="md:h-65 h-50 md:hover:-translate-y-3 transition-all duration-400 ease-in-out p-6 md:rounded-xl md:shadow-xl shadow-md text-center flex items-center justify-center">
           <div className="flex flex-col space-y-2 items-center">
             <Image
               src={`/sw services/custom.png`}
@@ -31,7 +31,7 @@ export default function SoftwareDevelopmentServices() {
           </div>
         </div>
 
-        <div className="md:h-65 h-50 p-6 md:rounded-xl md:shadow-xl shadow-md text-center flex items-center justify-center">
+        <div className="md:h-65 h-50 md:hover:-translate-y-3 transition-all duration-400 ease-in-out p-6 md:rounded-xl md:shadow-xl shadow-md text-center flex items-center justify-center">
           <div className="flex flex-col space-y-2 items-center">
             <Image
               src={`/sw services/computer.png`}
@@ -48,7 +48,7 @@ export default function SoftwareDevelopmentServices() {
         </div>
 
         {/** */}
-        <div className="md:h-65 h-50 p-6 md:rounded-xl md:shadow-xl shadow-md text-center flex items-center justify-center">
+        <div className="md:h-65 h-50 md:hover:-translate-y-3 transition-all duration-400 ease-in-out p-6 md:rounded-xl md:shadow-xl shadow-md text-center flex items-center justify-center">
           <div className="flex flex-col space-y-2 items-center">
             <Image
               src={`/sw services/profit-up.png`}
@@ -63,7 +63,7 @@ export default function SoftwareDevelopmentServices() {
             </p>
           </div>
         </div>
-        <div className="md:h-65 h-50 p-6 md:rounded-xl md:shadow-xl shadow-md text-center flex items-center justify-center">
+        <div className="md:h-65 h-50 md:hover:-translate-y-3 transition-all duration-400 ease-in-out p-6 md:rounded-xl md:shadow-xl shadow-md text-center flex items-center justify-center">
           <div className="flex flex-col space-y-2 items-center">
             <Image
               src={`/sw services/customer-relationship-management.png`}
@@ -79,7 +79,7 @@ export default function SoftwareDevelopmentServices() {
           </div>
         </div>
 
-        <div className="md:h-65 h-50 p-6 md:rounded-xl md:shadow-xl shadow-md text-center flex items-center justify-center">
+        <div className="md:h-65 h-50 md:hover:-translate-y-3 transition-all duration-400 ease-in-out p-6 md:rounded-xl md:shadow-xl shadow-md text-center flex items-center justify-center">
           <div className="flex flex-col space-y-2 items-center">
             <Image
               src={`/sw services/app-development.png`}

@@ -6,7 +6,7 @@ import { CgClose } from "react-icons/cg";
 
 export default function NavBar() {
   const [shouldShowMobileMenu, setShouldShowMobileMenu] =
-    useState<boolean>(false); 
+    useState<boolean>(false);
 
   const [scrollPosition, setScrollPosition] = useState<number>(0);
   const [activeNavElement, setActiveNavElemenet] = useState<string>("");
@@ -36,7 +36,9 @@ export default function NavBar() {
   return (
     <div
       className={` py-6 px-6 transition-all duration-1000 ease-in-out  w-full flex items-center justify-between  fixed z-50 top-0 left-0 right-0 ${
-        scrollPosition < 70 ? "bg-transparent border-b-[0.009px] pb-10 border-b-sky-600" : "bg-white shadow-md"
+        scrollPosition < 70
+          ? "md:bg-transparent bg-white md:border-b-[0.009px] md:pb-10 md:border-b-sky-600"
+          : "bg-white shadow-md"
       }`}
     >
       <div className="flex space-x-2">
@@ -46,39 +48,36 @@ export default function NavBar() {
             setActiveNavElemenet("home");
           }}
           className={`text-xl font-bold cursor-pointer ${
-            scrollPosition < 70 ? "text-white" : "text-black"
+            scrollPosition < 70 ? "md:text-white" : "text-black"
           } `}
         >
           Spider technologies
         </p>
       </div>
       <div className="md:flex hidden space-x-15">
-        {
-          navBarData.map((nd, index) => {
-            return (
-              <div className="group cursor-pointer" key={index}>
-          <p
-            className={`rounded-md font-bold  ${
-              scrollPosition < 70 ? "text-white" : "text-black"
-            }`}
-            onClick={() => {
-              ChangeScrollTo(nd.value);
-              setActiveNavElemenet(nd.value);
-            }}
-          >
-            {nd.name}
-          </p>
-          {activeNavElement !== nd.value && (
-            <p className="h-1 w-0 group-hover:w-full transition-all duration-200 ease-in-out bg-blue-400"></p>
-          )}
-          {activeNavElement === nd.value && (
-            <p className="h-1 w-full group-hover:w-full transition-all duration-200 ease-in-out bg-blue-400"></p>
-          )}
-        </div>
-            )
-          })
-        }
-        
+        {navBarData.map((nd, index) => {
+          return (
+            <div className="group cursor-pointer" key={index}>
+              <p
+                className={`rounded-md font-bold  ${
+                  scrollPosition < 70 ? "text-white" : "text-black"
+                }`}
+                onClick={() => {
+                  ChangeScrollTo(nd.value);
+                  setActiveNavElemenet(nd.value);
+                }}
+              >
+                {nd.name}
+              </p>
+              {activeNavElement !== nd.value && (
+                <p className="h-1 w-0 group-hover:w-full transition-all duration-200 ease-in-out bg-blue-400"></p>
+              )}
+              {activeNavElement === nd.value && (
+                <p className="h-1 w-full group-hover:w-full transition-all duration-200 ease-in-out bg-blue-400"></p>
+              )}
+            </div>
+          );
+        })}
       </div>
       <div className="md:hidden block">
         <HiOutlineBars3BottomRight
@@ -92,7 +91,12 @@ export default function NavBar() {
       </div>
       {shouldShowMobileMenu && (
         <div className="absolute md:hidden h-screen flex flex-col space-y-2 left-0 right-0 z-60  bg-white w-full shadow-lg top-0 py-12 ">
-          <CgClose className="w-15 h-15 p-3 absolute top-1 right-3 text-black cursor-pointer" onClick={() => {setShouldShowMobileMenu(false)}}/>
+          <CgClose
+            className="w-15 h-15 p-3 absolute top-1 right-3 text-black cursor-pointer"
+            onClick={() => {
+              setShouldShowMobileMenu(false);
+            }}
+          />
           <p
             className={`py-3 px-6 w-full cursor-pointer  ${activeNavElement === "aboutme" ? "bg-blue-400  text-white" : "hover:bg-gray-200"}`}
             onClick={() => {

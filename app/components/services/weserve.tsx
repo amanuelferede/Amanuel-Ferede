@@ -19,7 +19,7 @@ export default function WeServe() {
             >
               <div className="text-white stiky top-20">
                 <div className="text-2xl font-semibold text-center">
-                  <p className="w-full md:text-3xl">
+                  <p className="w-full md:text-3xl animate-pulse">
                     We stay updated with the latest trends and technologies to
                     ensrue your website is modern, secure, and optimized for the
                     best resutls.{" "}
@@ -28,7 +28,7 @@ export default function WeServe() {
               </div>
             </div>
             <div className="grid md:grid-cols-2 grid-cols-2 gap-6 ">
-              <div className=" h-40 md:rounded-lg rounded-md bg-white/85 p-6 shadow-xl text-center flex items-center justify-center">
+              <div className=" h-40 md:hover:scale-105 transition-all duration-300 ease-in-out md:rounded-lg rounded-md bg-white/95 p-6 shadow-xl text-center flex items-center justify-center">
                 <div className="flex flex-col space-y-2 items-center">
                   <Image
                     src={`/we serve/university.png`}
@@ -41,7 +41,7 @@ export default function WeServe() {
                   <p className="font-semibold text-lg">Education.</p>
                 </div>
               </div>
-              <div className=" h-40 md:rounded-lg rounded-md bg-white/85 p-6 shadow-xl text-center flex items-center justify-center">
+              <div className=" h-40 md:hover:scale-105 transition-all duration-300 ease-in-out md:rounded-lg rounded-md bg-white/95 p-6 shadow-xl text-center flex items-center justify-center">
                 <div className="flex flex-col space-y-2 items-center">
                   <Image
                     src={`/we serve/hospital.png`}
@@ -54,7 +54,7 @@ export default function WeServe() {
                   <p className="font-semibold text-lg">Healthcare.</p>
                 </div>
               </div>
-              <div className=" h-40 md:rounded-lg rounded-md bg-white/85 p-6 shadow-xl text-center flex items-center justify-center">
+              <div className=" h-40 md:hover:scale-105 transition-all duration-300 ease-in-out md:rounded-lg rounded-md bg-white/95 p-6 shadow-xl text-center flex items-center justify-center">
                 <div className="flex flex-col space-y-2 items-center">
                   <Image
                     src={`/we serve/building.png`}
@@ -67,7 +67,7 @@ export default function WeServe() {
                   <p className="font-semibold text-lg">Real state</p>
                 </div>
               </div>
-              <div className=" h-40 md:rounded-lg rounded-md bg-white/85 p-6 shadow-xl text-center flex items-center justify-center">
+              <div className=" h-40 md:hover:scale-105 transition-all duration-300 ease-in-out md:rounded-lg rounded-md bg-white/95 p-6 shadow-xl text-center flex items-center justify-center">
                 <div className="flex flex-col space-y-2 items-center">
                   <Image
                     src={`/we serve/online-shopping.png`}
@@ -81,7 +81,7 @@ export default function WeServe() {
                 </div>
               </div>
 
-              <div className=" h-40 md:rounded-lg rounded-md bg-white/85 p-6 shadow-xl text-center flex items-center justify-center">
+              <div className=" h-40 md:hover:scale-105 transition-all duration-300 ease-in-out md:rounded-lg rounded-md bg-white/95 p-6 shadow-xl text-center flex items-center justify-center">
                 <div className="flex flex-col space-y-2 items-center">
                   <Image
                     src={`/we serve/business-trip.png`}
@@ -94,7 +94,7 @@ export default function WeServe() {
                   <p className="font-semibold text-lg">Travel and tourism.</p>
                 </div>
               </div>
-              <div className=" h-40 md:rounded-lg rounded-md bg-white/85 p-6 shadow-xl text-center flex items-center justify-center">
+              <div className=" h-40 md:hover:scale-105 transition-all duration-300 ease-in-out md:rounded-lg rounded-md bg-white/95 p-6 shadow-xl text-center flex items-center justify-center">
                 <div className="flex flex-col space-y-2 items-center">
                   <Image
                     src={`/we serve/ngo.png`}
