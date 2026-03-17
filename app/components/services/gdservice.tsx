@@ -24,7 +24,7 @@ export default function GraphicDesginService() {
       >
         <div className="  md:rounded-tr-[3rem] md:rounded-bl-[3rem] bg-sky-50 md:hover:-translate-y-3 transition-all duration-300 ease-in-out shadow-xl text-center flex items-center justify-center">
           <div className="flex flex-col space-y-2">
-            <div className="h-55 bg-sky-100 hover:bg-sky-800 transition-all duration-200 group ease-in-out md:rounded-tr-[3rem] flex items-center justify-center">
+            <div className="h-55 bg-sky-100 hover:bg-sky-600 transition-all duration-200 group ease-in-out md:rounded-tr-[3rem] flex items-center justify-center">
               <p className="text-4xl text-sky-900 font-bold group-hover:text-white transition-all duration-100 ease-in-out">
                 Logo desgin
               </p>
@@ -41,7 +41,7 @@ export default function GraphicDesginService() {
         </div>
         <div className="  md:rounded-tr-[3rem] md:rounded-bl-[3rem] bg-sky-50 md:hover:-translate-y-3 transition-all duration-300 ease-in-out shadow-xl text-center flex items-center justify-center">
           <div className="flex flex-col space-y-2">
-            <div className="h-55 bg-sky-100 hover:bg-sky-800 transition-all duration-200 group ease-in-out md:rounded-tr-[3rem] flex items-center justify-center">
+            <div className="h-55 bg-sky-100 hover:bg-sky-600 transition-all duration-200 group ease-in-out md:rounded-tr-[3rem] flex items-center justify-center">
               <p className="text-4xl text-sky-900 font-bold group-hover:text-white transition-all duration-100 ease-in-out">
                 Banner desgin
               </p>
@@ -58,7 +58,7 @@ export default function GraphicDesginService() {
         </div>
         <div className="  md:rounded-tr-[3rem] md:rounded-bl-[3rem] bg-sky-50 md:hover:-translate-y-3 transition-all duration-300 ease-in-out shadow-xl text-center flex items-center justify-center">
           <div className="flex flex-col space-y-2">
-            <div className="h-55 bg-sky-100 hover:bg-sky-800 transition-all duration-200 group ease-in-out md:rounded-tr-[3rem] flex items-center justify-center">
+            <div className="h-55 bg-sky-100 hover:bg-sky-600 transition-all duration-200 group ease-in-out md:rounded-tr-[3rem] flex items-center justify-center">
               <p className="text-4xl text-sky-900 font-bold group-hover:text-white transition-all duration-100 ease-in-out">
                 Flyer desgin
               </p>
@@ -75,7 +75,7 @@ export default function GraphicDesginService() {
         </div>
         <div className="  md:rounded-tr-[3rem] md:rounded-bl-[3rem] bg-sky-50 md:hover:-translate-y-3 transition-all duration-300 ease-in-out shadow-xl text-center flex items-center justify-center">
           <div className="flex flex-col space-y-2">
-            <div className="h-55 bg-sky-100 hover:bg-sky-800 transition-all duration-200 group ease-in-out md:rounded-tr-[3rem] flex items-center justify-center">
+            <div className="h-55 bg-sky-100 hover:bg-sky-600 transition-all duration-200 group ease-in-out md:rounded-tr-[3rem] flex items-center justify-center">
               <p className="text-4xl text-sky-900 font-bold group-hover:text-white transition-all duration-100 ease-in-out">
                 Video editing
               </p>
@@ -92,7 +92,7 @@ export default function GraphicDesginService() {
         </div>
         <div className="  md:rounded-tr-[3rem] md:rounded-bl-[3rem] bg-sky-50 md:hover:-translate-y-3 transition-all duration-300 ease-in-out shadow-xl text-center flex items-center justify-center">
           <div className="flex flex-col space-y-2">
-            <div className="h-55 bg-sky-100 hover:bg-sky-800 transition-all duration-200 group ease-in-out md:rounded-tr-[3rem] flex items-center justify-center">
+            <div className="h-55 bg-sky-100 hover:bg-sky-600 transition-all duration-200 group ease-in-out md:rounded-tr-[3rem] flex items-center justify-center">
               <p className="text-4xl text-sky-900 font-bold group-hover:text-white transition-all duration-100 ease-in-out">
                 Motion graphics
               </p>

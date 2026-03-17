@@ -1,15 +1,7 @@
 import Image from "next/image";
 export default function WeServe() {
   return (
-    <div
-      className="  relative"
-      style={{
-        backgroundImage: `url('c.jpg')`,
-        backgroundSize: "cover",
-        backgroundPosition: "center center",
-        backgroundRepeat: "no-repeat",
-      }}
-    >
+    <div className="  relative bg-sky-100">
       <div className=" min-h-screen md:px-0 px-3  bg-sky-800/70 md:py-25 py-15 backdrop-hue-rotate-90 h-full">
         <div className=" lg:max-w-7xl xl:max-w-350 mx-auto  ">
           <div className="grid md:grid-cols-2 gap-10 justify-center 0">
